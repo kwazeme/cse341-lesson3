@@ -8,7 +8,7 @@ GET http://localhost:8080/contacts
 GET http://localhost:8080/professional
 
 ###
-GET http://localhost:8080/contacts/6325d9779a0a46103327dae1
+GET http://localhost:8080/contacts/632d351e1a824b4863bcc83f
 
 ###
 GET http://localhost:8080/contacts/6325d9779a0a46103327dae1
@@ -23,26 +23,26 @@ POST http://localhost:8080/contacts  HTTP/1.1
 content-type: application/json
 
 {
-    "firstname":"Burnie",
+    "firstname":"Burning",
     "lastname":"Nawn", 
     "email":"burnie@nawn.com", 
-    "favorite_Color":"blue", 
+    "favourite_color":"blue", 
     "birthdate":"06/19/1970"
 }
 
 # Delete _id contact
 ###
-DELETE  http://localhost:8080/contacts/632d31893bc6071cf735a016 HTTP/1.1
-
+DELETE  http://localhost:8080/contacts/632d437d960458e663ceb332 HTTP/1.1
+content-type: application/json
 ### 
-PUT http://localhost:8080/contacts/632d31893bc6071cf735a016 HTTP/1.1
+PUT http://localhost:8080/contacts/632d437d960458e663ceb332 HTTP/1.1
 content-type: application/json
 
 {
     "firstname":"Burnie",
     "lastname":"Nawn", 
     "email":"burnie@nawn.com", 
-    "favorite_Color":"blue", 
+    "favourite_color":"blue", 
     "birthdate":"06/19/1970"
 }
 
@@ -68,22 +68,22 @@ content-type: application/json
     "firstname":"Burnie",
     "lastname":"Nawn", 
     "email":"burnie@nawn.com", 
-    "favorite_Color":"blue", 
+    "favourite_color":"blue", 
     "birthdate":"06/19/1970"
 }
 
 # Delete _id contact
 ###
-DELETE  https://cse341-lesson3.onrender.com/contacts/632d31893bc6071cf735a016 HTTP/1.1
+DELETE  https://cse341-lesson3.onrender.com/contacts/632d43e5288e216a0f36b3e3 HTTP/1.1
 
 ### 
-PUT https://cse341-lesson3.onrender.com/contacts/contacts/632d31893bc6071cf735a016 HTTP/1.1
+PUT https://cse341-lesson3.onrender.com/contacts/632d43e5288e216a0f36b3e3 HTTP/1.1
 content-type: application/json
 
 {
-    "firstname":"Burnie",
+    "firstname":"Augustine",
     "lastname":"Nawn", 
     "email":"burnie@nawn.com", 
-    "favorite_Color":"blue", 
+    "favourite_color":"blue", 
     "birthdate":"06/19/1970"
 }

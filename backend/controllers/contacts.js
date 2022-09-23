@@ -56,7 +56,6 @@ const deleteContact = async (req, res, next) => {
 // Update Contact 
 const updateContact = async (req, res) => {
   const userId = ObjectId(req.params.id);
-  // be aware of updateOne if you only want to update specific fields
   const contact = {
     firstname: req.body.firstname,
     lastname: req.body.lastname,
