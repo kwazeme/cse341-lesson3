@@ -1,0 +1,37 @@
+{
+    "contact": {
+      "firstname": "Jessica",
+      "lastname": "Angelo",
+      "email": "jessica@byui.edu",
+      "favourite_color": "Brown",
+      "birthdate": "1990-01-08T22:00:00.000+00:00"
+    },
+    "contact2": {
+      "firstname": "Naif",
+      "lastname": "Amoodi",
+      "email": "naif@byui.edu",
+      "favourite_color": "White",
+      "birthdate": "1972-01-07T22:00:00.000+00:00"
+    },
+    "contact3": {
+      "firstname": "Sara Calderon",
+      "lastname": "Rony",
+      "email": "ronyc@byui.edu",
+      "favourite_color": "Green",
+      "birthdate": "1977-01-08T22:00:00.000+00:00"
+    },
+    "contact4": {
+        "firstname": "Aaron",
+        "lastname": "Gusa",
+        "email": "agusa@byui.edu",
+        "favourite_color": "Grey",
+        "birthdate": "1991-01-08T22:00:00.000+00:00"
+      },
+      "contact5": {
+        "firstname": "Augustine",
+        "lastname": "Ogubie",
+        "email": "augustine@byui.edu",
+        "favourite_color": "Royal Purple",
+        "birthdate": "1991-01-08T22:00:00.000+00:00"
+      }
+  }
